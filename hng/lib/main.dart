@@ -43,61 +43,85 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SafeArea(
         child: Center(
           child: Column(
+
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: ClipOval(
-                  child: Image.asset('assets/person_kevin.jpeg'),
+                  child: Image.asset('assets/images/person_kevin.jpeg'),
                 ),
               ),
-              ElevatedButton(
-                onPressed: () async {
-                  final Uri url = Uri.parse(
-                      'https://github.com/GodswillErondu/hng-zero.git');
-                  if (!await launchUrl(url)) {
-                    throw Exception('Could not launch $url');
-                  }
-                },
-                child: const Text('GitHub Directory'),
-              ),
-              // const SizedBox(
-              //   height: 4.0,
-              // ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  ElevatedButton(
-                    onPressed: () async {
-                      final Uri url = Uri.parse(
-                          'https://hng.tech/hire/mobile-ui-ux-developers');
-                      if (!await launchUrl(url)) {
-                        throw Exception('Could not launch $url');
-                      }
-                    },
-                    child: const Text('Hire Software Developer'),
-                  ),  ElevatedButton(
-                    onPressed: () async {
-                      final Uri url = Uri.parse(
-                          'https://telex.im/');
-                      if (!await launchUrl(url)) {
-                        throw Exception('Could not launch $url');
-                      }
-                    },
-                    child: const Text('Telex'),
-                  ),  ElevatedButton(
-                    onPressed: () async {
-                      final Uri url = Uri.parse(
-                          'https://delve.fun/');
-                      if (!await launchUrl(url)) {
-                        throw Exception('Could not launch $url');
-                      }
-                    },
-                    child: const Text('Delve'),
-                  ),
-                ],
+              const SizedBox(height: 4.0,),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Wrap(direction: Axis.horizontal,
+                    runSpacing: 12.0,
+                    spacing: 12.0,
+                    children: [
+                      ElevatedButton.icon(
+                        onPressed: () async {
+                          final Uri url = Uri.parse('https://github.com/GodswillErondu/hng-zero.git');
+                          if (!await launchUrl(url)) {
+                            throw Exception('Could not launch $url');
+                          }
+                        },
+                        icon: Image.asset(
+                          'assets/images/github_mark.png',  // Make sure this matches exactly
+                          width: 20,
+                          height: 20,
+                        ),
+                        label: const Text('GitHub Directory'),
+                      ),
+                      ElevatedButton.icon(
+                        onPressed: () async {
+                          final Uri url = Uri.parse(
+                              'https://hng.tech/hire/mobile-ui-ux-developers');
+                          if (!await launchUrl(url)) {
+                            throw Exception('Could not launch $url');
+                          }
+                        },
+                        icon: Image.asset(
+                          'assets/images/hng.png',  // Make sure this matches exactly
+                          width: 20,
+                          height: 20,
+                        ),
+                        label: const Text('Hire Software Developer'),
+                      ),
+                      ElevatedButton.icon(
+                        onPressed: () async {
+                          final Uri url = Uri.parse(
+                              'https://telex.im/');
+                          if (!await launchUrl(url)) {
+                            throw Exception('Could not launch $url');
+                          }
+                        },
+                        icon: Image.asset(
+                          'assets/images/telex.png',  // Make sure this matches exactly
+                          width: 20,
+                          height: 20,
+                        ),                      label: const Text('Telex'),
+                      ),
+                      ElevatedButton.icon(
+                        onPressed: () async {
+                          final Uri url = Uri.parse(
+                              'https://delve.fun/');
+                          if (!await launchUrl(url)) {
+                            throw Exception('Could not launch $url');
+                          }
+                        },
+                        icon: Image.asset(
+                          'assets/images/delve.png',  // Make sure this matches exactly
+                          width: 20,
+                          height: 20,
+                        ),                      label: const Text('Delve'),
+                      ),
+                ]
+
+                    ),
               )
+
             ],
           ),
         ),
