@@ -47,6 +47,12 @@ Android Developers: http://hng.tech/hire/android-developers
 
 iOS Developers:  http://hng.tech/hire/ios-developers
 
+## 📱 Live Demo
+
+Try the app directly in your browser using Appetize.io:
+
+-Android demo: https://appetize.io/app/android/com.example.hng?device=pixel7&osVersion=13.0
+
 
 ##  Contributing
 
