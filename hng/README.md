@@ -1,16 +1,59 @@
-# hng
 
-A new Flutter project.
+# Hng App 
+
+A Flutter-based mobile application designed to help users navigate to the apps GitHub directory and HNG backlinks.
+
+---
+
+## Features
+
+- Direct linking to GitHub repository
+- Integration with external profiles
+- Cross-platform compatibility
+- Clean and intuitive user interface
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install): Ensure Flutter is installed and set up.
+- A connected Android or iOS device or emulator.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GodswillErondu/hng-zero.git
+   cd hng
+   
+2. Fetch dependencies:
+    flutter pub get
+
+3. Run the app:
+    flutter run
+
+🔗 Links:
+
+GitHub Repository: https://github.com/GodswillErondu/hng-zero.git
+
+React-Native Developers: http://hng.tech/hire/react-native-developers
+
+Kotlin Developers: http://hng.tech/hire/kotlin-developers
+
+Mobile Developers: http://hng.tech/hire/mobile-ui-ux-developers
+
+Android Developers: http://hng.tech/hire/android-developers
+
+iOS Developers:  http://hng.tech/hire/ios-developers
+
+
+##  Contributing
+
+Contributions are not welcomed! 
+
+##  License
+
+This project is licensed under the MIT License.
+
+
