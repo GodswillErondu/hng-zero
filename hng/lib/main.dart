@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),  ElevatedButton(
                     onPressed: () async {
                       final Uri url = Uri.parse(
-                          'https://telex.im/');
+                          'https://delve.fun/');
                       if (!await launchUrl(url)) {
                         throw Exception('Could not launch $url');
                       }
