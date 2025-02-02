@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           }
                         },
                         icon: Image.asset(
-                          'assets/images/github_mark.png', 
+                          'assets/images/github_mark.png',  // Make sure this matches exactly
                           width: 20,
                           height: 20,
                         ),
@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           }
                         },
                         icon: Image.asset(
-                          'assets/images/hng.png',  
+                          'assets/images/hng.png',  // Make sure this matches exactly
                           width: 20,
                           height: 20,
                         ),
@@ -98,11 +98,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           }
                         },
                         icon: Image.asset(
-                          'assets/images/telex.png', 
+                          'assets/images/telex.png',  // Make sure this matches exactly
                           width: 20,
                           height: 20,
-                        ),                      
-                        label: const Text('Telex'),
+                        ),                      label: const Text('Telex'),
                       ),
                       ElevatedButton.icon(
                         onPressed: () async {
@@ -113,11 +112,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           }
                         },
                         icon: Image.asset(
-                          'assets/images/delve.png',  
+                          'assets/images/delve.png',  // Make sure this matches exactly
                           width: 20,
                           height: 20,
-                        ),                      
-                        label: const Text('Delve'),
+                        ),                      label: const Text('Delve'),
                       ),
                 ]
 

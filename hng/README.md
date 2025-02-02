@@ -51,7 +51,7 @@ iOS Developers:  http://hng.tech/hire/ios-developers
 
 Try the app directly in your browser using Appetize.io:
 
--Android demo: https://appetize.io/app/android/com.example.hng?device=pixel7&osVersion=13.0
+-Android demo:  https://appetize.io/app/b_zvzfigjzr76evs2akvknssudx4
 
 
 ##  Contributing
